@@ -1,0 +1,32 @@
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.a th, .a td {
+  width: calc(100% / 3);
+}
+
+.b th, .b td {
+  width: calc(100% / 4);
+}
+
+table {
+  width: 60%;
+}
+
+.color_header{background-color:#D3D3D3;}
+.color_tomato{background-color:#FF6347;}
+.color_orange{background-color:#FFA500;}
+.color_dodgerBlue{background-color:#1E90FF;}
+.color_mediumSeaGreen{background-color:#3CB371;}
+.color_gray{background-color:#808080;}
+.color_slateblue{background-color:#6A5ACD;}
+.color_violet{background-color:#EE82EE;}
+.color_lightgray{background-color:#D3D3D3;}
